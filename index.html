@@ -16,23 +16,46 @@
 
 
 <body>
-    <header>
-       <img src="img/ferks-guare-KEZdWfYD-ow-unsplash 1.png" alt="'hamburger image">
-       <i class="fa-solid fa-circle-plus"></i>
-    </header>
-    <main>
-        <div id="menu-items">
-            <h1>verdana</h1>
-            <!-- menu items go here -->
-        </div>
-        <div id="order-summary">
-            <p>smythe</p>
-            <!-- order summery goes here -->
-        </div>
-        <div id="module">
+    <div id="container" class="container">
+        <header>
+            <h1>Jimmy's Diner</h1>
+            <p>The best burgers and pizzas in town</p>
+        </header>
+        <main>
+            <div id="menu-items" class="menu-items">
+                <!-- menu items go here -->
+                <div id="menu-item" class="menu-item">
+                    <div class="menu-item-left">
+                        <img class="item-graphic" src="/img/pizza-graphic.png" alt="picture of pizza">
+                        <div id="menu-inner" class="menu-inner">
+                            <h2>Pizza</h2>
+                            <p class="ingredients">pepperoni, mushroom, mozarella</p>
+                            <p class="price">$14</p>
+                        </div>
+                    </div>
+                    <span>
+                        <i class="fa-solid fa-plus"></i>
+                    </span>
+                </div>
+            </div>
+            
 
-        </div>
+            <div id="order-summary" class="order-summary">
+                <!-- order summery goes here -->
+                <div id="list-items" class="list-items">
+                    <div class="inline">
+                        <h2>Pizza</h2>
+                        <button id="remove-btn" class="remove-btn">remove</button>
+                    </div>
+                    <p>$26</p>
+                </div>
+                <div id="order-total" class="order-total">
+                    <h2>Total price:</h2>
+                    <button id="complete-order" class="complete-order">Complete order</button>
+                </div>
+            </div>
 
-    </main>
+        </main>
+    </div>
 </body>
-</html> 
+</html>     

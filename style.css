@@ -2,23 +2,107 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Smythe', cursive;
+    background-color: #F5F5F5;
+}
+
+.container {
+    background-color: white;
 }
 
 /* typography and icons */
 h1{
-    font-family: verdana;
+    font-size: 39px;
+    margin: 0;
+}
+
+header p{
+    font-size: 23px;
+}
+
+h2{
+    font-size: 28px;
+    margin: 0;
+    font-weight: 100;
+}
+
+.ingredients{
+    font-size: 16px;
+    margin-top: 4px;
+    color: #8B8B8B;
+}
+
+.price {
+    font-size: 20px;
+}
+
+i {
+    padding: 15px;
+    border: 2px solid #D2D2D2;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* graphics */
+
+.item-graphic {
+    height: 90px;
 }
 
 /* layout */
-body, header{
+
+.container{
     width: 600px;
     margin: 0 auto;
 }
 
-/* textareas + btn */
+
+/* header */
+
+header {
+    background-image: url(/img/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png);
+    height: 167px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header > * {
+    padding-left: 46px;
+}
 
 /* menu items */
 
-/* images */
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    width: 85%;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 30px 0;
+}
 
-/* utility */
+.menu-item-left{
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu-inner {
+    margin: 0 0 0 20px;
+}
+
+/* order summary */
+
+.order-summary{
+    width: 85%;
+    margin: auto;
+}
+
+.inline{
+    display: inline;
+}
+
+/* payment modal */
+
+/* thank you message */
